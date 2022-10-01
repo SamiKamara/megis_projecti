@@ -1,16 +1,25 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hellou megis!\n";
-	std::cout <<"Megavoima on ylivoimaa!\n";
-	std::cout << "Ylivoima on megavoimaa!\n";
-	std::cout << "\n";
+    cout << "Hellou megis!\n";
+	cout <<"Megavoima on ylivoimaa!\n";
+	cout << "Ylivoima on megavoimaa!\n";
+	cout << "\n";
 
 	int x;
 
-	std::cout << "Montako megista ajattelit juoda? "; 
-	std::cin >> x; 
-	std::cout << "Ai, ajattelit siis juoda: " << x; 
+	cout << "Montako megista ajattelit juoda? "; 
+	cin >> x;
+
+	if (x > 3) 
+	{
+		cout << "Ihan tarpeeksi monta megista\n";
+	}
+	else 
+	{
+		cout << "ei oo kyl tarpeeks monta\n";
+	}
 }
 
