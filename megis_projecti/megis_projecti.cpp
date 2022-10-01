@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Hellou megis!\n";
+    	cout << "Hellou megis!\n";
 	cout <<"Megavoima on ylivoimaa!\n";
 	cout << "Ylivoima on megavoimaa!\n";
 	cout << "\n";
