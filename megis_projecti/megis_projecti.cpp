@@ -13,7 +13,7 @@ int main()
 	cout << "Montako megista ajattelit juoda? "; 
 	cin >> x;
 
-	if (x > 3) 
+	if (x > 4) 
 	{
 		cout << "Ihan tarpeeksi monta megista\n";
 	}
